@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Geometry>
+	<SrcName/>
+	<uid>2EFC829E-F198-4D6C-A098-DE25017C1D6F</uid>
+	<RootMesh/>
+	<RootJoint>Helmet</RootJoint>
+	<Size>
+		<x>0.475527</x>
+		<y>0.320007</y>
+		<z>0.737549</z>
+	</Size>
+	<Center>
+		<x>0.0016605</x>
+		<y>-0.38438</y>
+		<z>2.82281</z>
+	</Center>
+	<BestFitPoint>
+		<x>0</x>
+		<y>0</y>
+		<z>0</z>
+	</BestFitPoint>
+	<Dir>
+		<x>0</x>
+		<y>0</y>
+		<z>0</z>
+		<w>0</w>
+	</Dir>
+	<AIGeometry/>
+	<NumMeshes>1</NumMeshes>
+	<MaterialQuantities>
+		<Item>1</Item>
+	</MaterialQuantities>
+	<MeshNames>
+		<Item>Helmet</Item>
+	</MeshNames>
+	<MeshAnimated/>
+	<MeshWindAffected/>
+</Geometry>

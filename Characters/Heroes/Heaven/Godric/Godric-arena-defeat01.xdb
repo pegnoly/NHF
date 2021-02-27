@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BasicSkelAnim>
+	<SrcName/>
+	<uid>2D6CF9E4-6A38-4DFE-A6E8-376B9CEE2C50</uid>
+	<ExpSrcClip/>
+	<ExpRootTransform/>
+	<ExpFrameFirst/>
+	<ExpFrameLast/>
+	<ExpSettingsFile/>
+	<MovementSpeed>0</MovementSpeed>
+	<SpeedFactor>1</SpeedFactor>
+	<Sound href="/Sounds/_(Sound)/Heroes/Knight/defeat01.xdb#xpointer(/Sound)"/>
+	<Effect href="Godric_shield.(Effect).xdb#xpointer(/Effect)"/>
+	<SpeedLineFallTime>250</SpeedLineFallTime>
+	<SpeedLineMaterial/>
+</BasicSkelAnim>

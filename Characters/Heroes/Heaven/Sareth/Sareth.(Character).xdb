@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Character>
+	<Model href="Sareth.(Model).xdb#xpointer(/Model)"/>
+	<ArenaAnimSet href="Sareth-arena.xdb#xpointer(/AnimSet)"/>
+	<AdvMapAnimSet/>
+	<ColourModels>
+		<Item href="Sareth_White.xdb#xpointer(/Model)"/>
+		<Item href="Sareth_Red.xdb#xpointer(/Model)"/>
+		<Item href="Sareth_Blue.xdb#xpointer(/Model)"/>
+		<Item href="Sareth_Green.xdb#xpointer(/Model)"/>
+		<Item href="Sareth_Yellow.xdb#xpointer(/Model)"/>
+		<Item href="Sareth_Orange.xdb#xpointer(/Model)"/>
+		<Item href="Sareth_Teal.xdb#xpointer(/Model)"/>
+		<Item href="Sareth_Purple.xdb#xpointer(/Model)"/>
+		<Item href="Sareth_Tan.xdb#xpointer(/Model)"/>
+	</ColourModels>
+</Character>

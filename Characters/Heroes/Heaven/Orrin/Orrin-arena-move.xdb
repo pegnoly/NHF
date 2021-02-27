@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BasicSkelAnim>
+	<SrcName/>
+	<uid>E3942DFB-EFB9-479A-B0D5-54643AA45FB6</uid>
+	<ExpSrcClip/>
+	<ExpRootTransform/>
+	<ExpFrameFirst/>
+	<ExpFrameLast/>
+	<ExpSettingsFile/>
+	<MovementSpeed>3.67285</MovementSpeed>
+	<SpeedFactor>1.5</SpeedFactor>
+	<Sound href="/Sounds/_(Sound)/Heroes/Knight/advmap_move_loop.xdb#xpointer(/Sound)"/>
+	<Effect href="idle00.(Effect).xdb#xpointer(/Effect)"/>
+	<SpeedLineFallTime>250</SpeedLineFallTime>
+	<SpeedLineMaterial/>
+</BasicSkelAnim>

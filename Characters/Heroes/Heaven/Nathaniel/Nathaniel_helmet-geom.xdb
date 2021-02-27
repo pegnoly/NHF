@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Geometry>
+	<SrcName/>
+	<uid>94AD8673-84A4-49E2-9C7E-1AC1A755CA4B</uid>
+	<RootMesh/>
+	<RootJoint>Nathaniel_helmet</RootJoint>
+	<Size>
+		<x>0.190526</x>
+		<y>0.304028</y>
+		<z>0.321748</z>
+	</Size>
+	<Center>
+		<x>0</x>
+		<y>0</y>
+		<z>0</z>
+	</Center>
+	<BestFitPoint>
+		<x>0</x>
+		<y>0</y>
+		<z>0</z>
+	</BestFitPoint>
+	<Dir>
+		<x>0</x>
+		<y>0</y>
+		<z>0</z>
+		<w>0</w>
+	</Dir>
+	<AIGeometry/>
+	<NumMeshes>1</NumMeshes>
+	<MaterialQuantities>
+		<Item>1</Item>
+	</MaterialQuantities>
+	<MeshNames>
+		<Item>Nathaniel_helmet</Item>
+	</MeshNames>
+	<MeshAnimated/>
+	<MeshWindAffected/>
+</Geometry>

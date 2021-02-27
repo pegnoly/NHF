@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AdvMapObjectLink>
+	<Link href="/MapObjects/Neutral/ShowApe.(AdvMapMonsterShared).xdb#xpointer(/AdvMapMonsterShared)"/>
+	<RndGroup/>
+	<IconFile>models\Icons\monsters\ShowApe.tga</IconFile>
+</AdvMapObjectLink>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Effect>
+	<Instances>
+		<Item href="/Effects/_(Effect)/Characters/Heroes/Barbarian/Gotay_Mounted/FX_Dust_cast.(ParticleInstance).xdb#xpointer(/ParticleInstance)"/>
+	</Instances>
+	<Lights/>
+	<Models>
+		<Item href="Tyris-head.(ModelInstance).xdb#xpointer(/ModelInstance)"/>
+		<Item href="Tyris-sabre.(ModelInstance).xdb#xpointer(/ModelInstance)"/>
+		<Item href="/Effects/_(Effect)/Characters/Heroes/Barbarian/Gotay_Mounted/Shout.(ModelInstance).xdb#xpointer(/ModelInstance)"/>
+		<Item href="/Effects/_(Effect)/Characters/Heroes/Barbarian/Gotay_Mounted/Shout.(ModelInstance).xdb#xpointer(/ModelInstance)"/>
+		<Item href="/Effects/_(Effect)/Characters/Heroes/Barbarian/Gotay_Mounted/cast.(ModelInstance).xdb#xpointer(/ModelInstance)"/>
+	</Models>
+	<WindAffected>false</WindAffected>
+	<WindPower>1</WindPower>
+	<Duration>2.5</Duration>
+</Effect>

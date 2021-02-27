@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Geometry>
+	<SrcName/>
+	<uid>29D5C7AB-D904-4BCC-9E17-B6E13518F845</uid>
+	<RootMesh/>
+	<RootJoint>head</RootJoint>
+	<Size>
+		<x>0.268767</x>
+		<y>0.331075</y>
+		<z>0.346099</z>
+	</Size>
+	<Center>
+		<x>0</x>
+		<y>0</y>
+		<z>0</z>
+	</Center>
+	<BestFitPoint>
+		<x>0</x>
+		<y>0</y>
+		<z>0</z>
+	</BestFitPoint>
+	<Dir>
+		<x>0</x>
+		<y>0</y>
+		<z>0</z>
+		<w>0</w>
+	</Dir>
+	<AIGeometry/>
+	<NumMeshes>1</NumMeshes>
+	<MaterialQuantities>
+		<Item>1</Item>
+	</MaterialQuantities>
+	<MeshNames>
+		<Item>Head</Item>
+	</MeshNames>
+	<MeshAnimated/>
+	<MeshWindAffected/>
+</Geometry>

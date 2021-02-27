@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnimSet>
+	<animations>
+		<Item>
+			<Kind>buff</Kind>
+			<Anim href="Sandro-arena-buff.xdb#xpointer(/BasicSkelAnim)"/>
+		</Item>
+		<Item>
+			<Kind>cast</Kind>
+			<Anim href="Sandro-arena-cast.xdb#xpointer(/BasicSkelAnim)"/>
+		</Item>
+		<Item>
+			<Kind>happy</Kind>
+			<Anim href="Sandro-arena-happy.xdb#xpointer(/BasicSkelAnim)"/>
+		</Item>
+		<Item>
+			<Kind>idle00</Kind>
+			<Anim href="Sandro-arena-idle.xdb#xpointer(/BasicSkelAnim)"/>
+		</Item>
+		<Item>
+			<Kind>stir00</Kind>
+			<Anim href="Sandro-arena-stir.xdb#xpointer(/BasicSkelAnim)"/>
+		</Item>
+		<Item>
+			<Kind>rangeattack</Kind>
+			<Anim href="Sandro-arena-rangeattack.xdb#xpointer(/BasicSkelAnim)"/>
+		</Item>
+		<Item>
+			<Kind>move</Kind>
+			<Anim href="Sandro-arena-move.xdb#xpointer(/BasicSkelAnim)"/>
+		</Item>
+		<Item>
+			<Kind>defeat</Kind>
+			<Anim href="Sandro-arena-defeat.xdb#xpointer(/BasicSkelAnim)"/>
+		</Item>
+	</animations>
+	<ExpSrcScene/>
+	<ExpSrcClipFolder/>
+	<ExpRootTransform/>
+</AnimSet>

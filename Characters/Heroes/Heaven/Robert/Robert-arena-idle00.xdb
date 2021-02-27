@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BasicSkelAnim>
+	<SrcName/>
+	<uid>BA9D6CDC-B58C-4846-9032-9A1234BED396</uid>
+	<ExpSrcClip/>
+	<ExpRootTransform/>
+	<ExpFrameFirst/>
+	<ExpFrameLast/>
+	<ExpSettingsFile/>
+	<MovementSpeed>0</MovementSpeed>
+	<SpeedFactor>1</SpeedFactor>
+	<Sound/>
+	<Effect href="Robert_add.(Effect).xdb#xpointer(/Effect)"/>
+	<SpeedLineFallTime>250</SpeedLineFallTime>
+	<SpeedLineMaterial/>
+</BasicSkelAnim>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Character>
+	<Model href="Reeva.(Model).xdb#xpointer(/Model)"/>
+	<ArenaAnimSet href="Reeva-arena.xdb#xpointer(/AnimSet)"/>
+	<AdvMapAnimSet/>
+	<ColourModels>
+		<Item href="Reeva.(Model).xdb#xpointer(/Model)"/>
+		<Item href="Reeva_Red.xdb#xpointer(/Model)"/>
+		<Item href="Reeva_Blue.xdb#xpointer(/Model)"/>
+		<Item href="Reeva_Green.xdb#xpointer(/Model)"/>
+		<Item href="Reeva_Yellow.xdb#xpointer(/Model)"/>
+		<Item href="Reeva_Orange.xdb#xpointer(/Model)"/>
+		<Item href="Reeva_Teal.xdb#xpointer(/Model)"/>
+		<Item href="Reeva_Purple.xdb#xpointer(/Model)"/>
+		<Item href="Reeva_Tan.xdb#xpointer(/Model)"/>
+	</ColourModels>
+</Character>

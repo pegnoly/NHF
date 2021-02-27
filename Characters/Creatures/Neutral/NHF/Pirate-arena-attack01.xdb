@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BasicSkelAnim>
+	<SrcName/>
+	<uid>0385C2F0-3492-487D-BE1D-F978EA7FEEA9</uid>
+	<ExpSrcClip/>
+	<ExpRootTransform/>
+	<ExpFrameFirst/>
+	<ExpFrameLast/>
+	<ExpSettingsFile/>
+	<MovementSpeed>0</MovementSpeed>
+	<SpeedFactor>1</SpeedFactor>
+	<Sound href="/Sounds/_(Sound)/Creatures/Haven/Footman/specability.xdb#xpointer(/Sound)"/>
+	<Effect href="/Effects/_(Effect)/Characters/Creatures/Neutral/NHF/Pirate/specability.(Effect).xdb#xpointer(/Effect)"/>
+	<SpeedLineFallTime>250</SpeedLineFallTime>
+	<SpeedLineMaterial/>
+</BasicSkelAnim>

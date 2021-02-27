@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<BasicSkelAnim>
+	<SrcName/>
+	<uid>BF8D2FCA-B012-42CA-94D8-FE425A007DBB</uid>
+	<ExpSrcClip/>
+	<ExpRootTransform/>
+	<ExpFrameFirst/>
+	<ExpFrameLast/>
+	<ExpSettingsFile/>
+	<MovementSpeed>3.64084</MovementSpeed>
+	<SpeedFactor>2</SpeedFactor>
+	<Sound href="/Sounds/_(Sound)/Heroes/Necromancer/Move.xdb#xpointer(/Sound)"/>
+	<Effect href="move.(Effect).xdb#xpointer(/Effect)"/>
+	<SpeedLineFallTime>250</SpeedLineFallTime>
+	<SpeedLineMaterial/>
+</BasicSkelAnim>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Geometry>
+	<SrcName/>
+	<uid>F047720E-E6B6-4C39-8EB8-7AF1654FCF21</uid>
+	<RootMesh/>
+	<RootJoint>Global</RootJoint>
+	<Size>
+		<x>3.72342</x>
+		<y>4.82926</y>
+		<z>6.16119</z>
+	</Size>
+	<Center>
+		<x>-0.660127</x>
+		<y>-0.17947</y>
+		<z>3.07724</z>
+	</Center>
+	<AIGeometry href="Effig-geom-AI.xdb#xpointer(/AIGeometry)"/>
+	<NumMeshes>5</NumMeshes>
+	<MaterialQuantities>
+		<Item>1</Item>
+		<Item>1</Item>
+		<Item>1</Item>
+		<Item>1</Item>
+		<Item>1</Item>
+	</MaterialQuantities>
+	<MeshNames>
+		<Item>ScytheShape</Item>
+		<Item>HeroShape</Item>
+		<Item>Rav1_meshShape</Item>
+		<Item>Rav3_meshShape</Item>
+		<Item>HorseShape</Item>
+	</MeshNames>
+	<MeshAnimated/>
+	<MeshWindAffected/>
+</Geometry>

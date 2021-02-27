@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AdvMapHeroShared>
+	<Model href="/_(Model)/Heroes/Knight_LOD.(Model).xdb#xpointer(/Model)"/>
+	<AnimSet href="/_(AnimSet)/Heroes/Knight_LOD-adv.(AnimSet).xdb#xpointer(/AnimSet)"/>
+	<blockedTiles/>
+	<holeTiles/>
+	<activeTiles>
+		<Item>
+			<x>0</x>
+			<y>0</y>
+		</Item>
+	</activeTiles>
+	<passableTiles/>
+	<PossessionMarkerTile>
+		<x>0</x>
+		<y>0</y>
+	</PossessionMarkerTile>
+	<Effect/>
+	<EffectWhenOwned/>
+	<messagesFileRef/>
+	<WaterBased>false</WaterBased>
+	<ApplyHeroTrace>true</ApplyHeroTrace>
+	<SoundEffect/>
+	<flybyMessageFileRef href=""/>
+	<ObjectTypeFileRef href="/Text/Visibility_Types/Units.txt"/>
+	<TerrainAligned>false</TerrainAligned>
+	<FlyPassable>true</FlyPassable>
+	<AdventureSoundEffect/>
+	<RazedStatic/>
+	<Icon128/>
+	<InternalName>Baltazar</InternalName>
+	<Class>HERO_CLASS_NECROMANCER</Class>
+	<Specialization>HERO_SPEC_NONE</Specialization>
+	<PrimarySkill>
+		<Mastery>MASTERY_BASIC</Mastery>
+		<SkillID>HERO_SKILL_NECROMANCY</SkillID>
+	</PrimarySkill>
+	<SpecializationNameFileRef href="specname.txt"/>
+	<SpecializationDescFileRef href="specdesc.txt"/>
+	<SpecializationIcon href="/UI/H5A1/Icons/Buildings/Adventures_Buildings/128x128/Elemental_Conflux.(Texture).xdb#xpointer(/Texture)"/>
+	<FaceTexture href="Necropolis_Baltazar.(Texture).xdb#xpointer(/Texture)"/>
+	<FaceTextureSmall/>
+	<HeroCharacterArena href="/Characters/Heroes/Necropolis/Baltazar/Baltazar.(Character).xdb#xpointer(/Character)"/>
+	<HeroCharacterArenaMelee/>
+	<HeroCharacterAdventure href="/Characters/Heroes/Necropolis/Baltazar/Baltazar.(Character).xdb#xpointer(/Character)"/>
+	<HeroIndividualCamera/>
+	<CombatVisual href="/GameMechanics/CreatureVisual/Heroes/Necromancer.xdb#xpointer(/CreatureVisual)"/>
+	<TownType>TOWN_NECROMANCY</TownType>
+	<Editable>
+		<NameFileRef href="herpname.txt"/>
+		<BiographyFileRef href="herobio.txt"/>
+		<Offence>0</Offence>
+		<Defence>1</Defence>
+		<Spellpower>3</Spellpower>
+		<Knowledge>1</Knowledge>
+		<skills>
+			<Item>
+				<Mastery>MASTERY_EXPERT</Mastery>
+				<SkillID>HERO_SKILL_DESTRUCTIVE_MAGIC</SkillID>
+			</Item>
+		</skills>
+		<perkIDs/>
+		<spellIDs>
+			<Item>SPELL_ANIMATE_DEAD</Item>
+			<Item>SPELL_MAGIC_ARROW</Item>
+			<Item>SPELL_DEEP_FREEZE</Item>
+		</spellIDs>
+		<Ballista>true</Ballista>
+		<FirstAidTent>false</FirstAidTent>
+		<AmmoCart>false</AmmoCart>
+		<FavoriteEnemies/>
+		<TalismanLevel>0</TalismanLevel>
+	</Editable>
+	<ArrowButtonState>0</ArrowButtonState>
+	<Decal/>
+	<Selection href="/_(Model)/Heroes/Necromancer_Path/Symbol.xdb#xpointer(/Model)"/>
+	<Trace href="/MapObjects/_(AdvMapHeroTraceSet)/Necropolis.xdb#xpointer(/AdvMapHeroTraceSet)"/>
+	<RaceTraitIcon/>
+	<RaceTraitDescFileRef href=""/>
+	<ScenarioHero>false</ScenarioHero>
+	<AdventureMusic/>
+	<HideInEditor>false</HideInEditor>
+	<PresetMinimalAttributes>
+		<Offence>2</Offence>
+		<Defence>2</Defence>
+		<Spellpower>2</Spellpower>
+		<Knowledge>2</Knowledge>
+	</PresetMinimalAttributes>
+</AdvMapHeroShared>

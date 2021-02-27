@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Character>
+	<Model href="Lorenzo_LOD.(Model).xdb#xpointer(/Model)"/>
+	<ArenaAnimSet/>
+	<AdvMapAnimSet href="/Characters/Heroes/Heaven/_Renegades_Path/Renegades_LOD-adv.(AnimSet).xdb#xpointer(/AnimSet)"/>
+	<ColourModels>
+		<Item href="Lorenzo_LOD_White.xdb#xpointer(/Model)"/>
+		<Item href="Lorenzo_LOD.(Model).xdb#xpointer(/Model)"/>
+		<Item href="Lorenzo_LOD_Blue.xdb#xpointer(/Model)"/>
+		<Item href="Lorenzo_LOD_Green.xdb#xpointer(/Model)"/>
+		<Item href="Lorenzo_LOD_Yellow.xdb#xpointer(/Model)"/>
+		<Item href="Lorenzo_LOD_Orange.xdb#xpointer(/Model)"/>
+		<Item href="Lorenzo_LOD_Teal.xdb#xpointer(/Model)"/>
+		<Item href="Lorenzo_LOD_Purple.xdb#xpointer(/Model)"/>
+		<Item href="Lorenzo_LOD_Tan.xdb#xpointer(/Model)"/>
+	</ColourModels>
+</Character>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Character ObjectRecordID="1000195">
+	<Model href="Isabel.xdb#xpointer(/Model)"/>
+	<ArenaAnimSet href="Isabel-arena.xdb#xpointer(/AnimSet)"/>
+	<AdvMapAnimSet href="Isabel-arena.xdb#xpointer(/AnimSet)"/>
+	<ColourModels>
+		<Item href="/Characters/Heroes/Isabel_White.xdb#xpointer(/Model)"/>
+		<Item href="/Characters/Heroes/Isabel_Red.xdb#xpointer(/Model)"/>
+		<Item href="/Characters/Heroes/Isabel_Blue.xdb#xpointer(/Model)"/>
+		<Item href="/Characters/Heroes/Isabel_Green.xdb#xpointer(/Model)"/>
+		<Item href="/Characters/Heroes/Isabel_Yellow.xdb#xpointer(/Model)"/>
+		<Item href="/Characters/Heroes/Isabel_Orange.xdb#xpointer(/Model)"/>
+		<Item href="/Characters/Heroes/Isabel.xdb#xpointer(/Model)"/>
+		<Item href="/Characters/Heroes/Isabel_Purple.xdb#xpointer(/Model)"/>
+		<Item href="/Characters/Heroes/Isabel_Tan.xdb#xpointer(/Model)"/>
+	</ColourModels>
+</Character>

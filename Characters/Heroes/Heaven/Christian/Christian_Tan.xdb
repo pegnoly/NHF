@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Model>
+	<Materials>
+		<Item href="Christian_horse.(Material).xdb#xpointer(/Material)"/>
+		<Item href="Christian_body.(Material).xdb#xpointer(/Material)"/>
+		<Item href="Christian_weapon.(Material).xdb#xpointer(/Material)"/>
+		<Item href="/_(Material)/auto-imported/Heroes/Knight/SwordGlow.xdb#xpointer(/Material)"/>
+		<Item href="Christian_weapon.(Material).xdb#xpointer(/Material)"/>
+		<Item href="/_(Model)/Heroes/Knight-flag_Tan.xdb#xpointer(/Material)"/>
+		<Item href="Christian_FlagMan.(Material).xdb#xpointer(/Material)"/>
+	</Materials>
+	<Skeleton href="/_(Model)/Heroes/Knight-skel.xdb#xpointer(/Skeleton)"/>
+	<Geometry href="/_(Model)/Heroes/Knight-geom.xdb#xpointer(/Geometry)"/>
+	<Animations/>
+	<WindPower>1</WindPower>
+</Model>

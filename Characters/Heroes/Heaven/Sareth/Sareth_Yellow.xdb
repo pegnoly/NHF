@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Model>
+	<Materials>
+		<Item href="Sareth_weapon_Yellow.(Material).xdb#xpointer(/Material)"/>
+		<Item href="Sareth_horse_Yellow.(Material).xdb#xpointer(/Material)"/>
+		<Item href="Sareth_body.(Material).xdb#xpointer(/Material)"/>
+		<Item href="Sareth_weapon_Yellow.(Material).xdb#xpointer(/Material)"/>
+	</Materials>
+	<Skeleton href="Sareth-skel.xdb#xpointer(/Skeleton)"/>
+	<Geometry href="Sareth-geom.xdb#xpointer(/Geometry)"/>
+	<Animations/>
+	<WindPower>1</WindPower>
+</Model>

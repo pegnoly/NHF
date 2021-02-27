@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BasicSkelAnim>
+	<SrcName/>
+	<uid>39BEA63A-99AB-4896-9F3E-63C56C6B20CB</uid>
+	<ExpSrcClip/>
+	<ExpRootTransform/>
+	<ExpFrameFirst/>
+	<ExpFrameLast/>
+	<ExpSettingsFile/>
+	<MovementSpeed>0</MovementSpeed>
+	<SpeedFactor>1.2</SpeedFactor>
+	<Sound href="/Sounds/_(Sound)/Heroes/Knight/strike.xdb#xpointer(/Sound)"/>
+	<Effect href="Bertrand_add.(Effect).xdb#xpointer(/Effect)"/>
+	<SpeedLineFallTime>250</SpeedLineFallTime>
+	<SpeedLineMaterial/>
+</BasicSkelAnim>

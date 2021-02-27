@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Model>
+	<Materials>
+		<Item href="/Characters/Creatures/Rampart/AlternativeUpgrades/T4_High_Druid-pasted__Druid_lambert.2.(Material).xdb#xpointer(/Material)"/>
+	</Materials>
+	<Skeleton/>
+	<Geometry href="Ergar_hat-geom.xdb#xpointer(/Geometry)"/>
+	<Animations/>
+	<WindPower>1</WindPower>
+</Model>

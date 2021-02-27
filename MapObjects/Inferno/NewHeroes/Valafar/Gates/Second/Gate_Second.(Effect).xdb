@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Effect>
+	<Instances>
+		<Item href="Gate_Second_1.(ParticleInstance).xdb#xpointer(/ParticleInstance)"/>
+		<Item href="Gate_Second_0.(ParticleInstance).xdb#xpointer(/ParticleInstance)"/>
+	</Instances>
+	<Lights/>
+	<Models>
+		<Item href="Gating_Second_1.(ModelInstance).xdb#xpointer(/ModelInstance)"/>
+		<Item href="Gating_Second_2.(ModelInstance).xdb#xpointer(/ModelInstance)"/>
+		<Item href="Gating_Second_3.(ModelInstance).xdb#xpointer(/ModelInstance)"/>
+		<Item href="Gating_Second_4.(ModelInstance).xdb#xpointer(/ModelInstance)"/>
+	</Models>
+	<WindAffected>false</WindAffected>
+	<WindPower>1</WindPower>
+	<Duration>2.5</Duration>
+</Effect>

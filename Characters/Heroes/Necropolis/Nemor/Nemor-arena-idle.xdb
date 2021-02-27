@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<BasicSkelAnim>
+	<SrcName/>
+	<uid>FEEEE551-F8D9-49EE-8AE9-85DA564B0686</uid>
+	<ExpSrcClip/>
+	<ExpRootTransform/>
+	<ExpFrameFirst/>
+	<ExpFrameLast/>
+	<ExpSettingsFile/>
+	<MovementSpeed>0</MovementSpeed>
+	<SpeedFactor>1</SpeedFactor>
+	<Sound/>
+	<Effect href="idle.(Effect).xdb#xpointer(/Effect)"/>
+	<SpeedLineFallTime>250</SpeedLineFallTime>
+	<SpeedLineMaterial/>
+</BasicSkelAnim>

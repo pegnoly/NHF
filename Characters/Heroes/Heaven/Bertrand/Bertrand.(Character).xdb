@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Character>
+	<Model href="Bertrand.(Model).xdb#xpointer(/Model)"/>
+	<ArenaAnimSet href="Bertrand-arena.xdb#xpointer(/AnimSet)"/>
+	<AdvMapAnimSet/>
+	<ColourModels>
+		<Item href="Bertrand_White.xdb#xpointer(/Model)"/>
+		<Item href="Bertrand.(Model).xdb#xpointer(/Model)"/>
+		<Item href="Bertrand_Blue.xdb#xpointer(/Model)"/>
+		<Item href="Bertrand_Green.xdb#xpointer(/Model)"/>
+		<Item href="Bertrand_Yellow.xdb#xpointer(/Model)"/>
+		<Item href="Bertrand_Orange.xdb#xpointer(/Model)"/>
+		<Item href="Bertrand_Teal.xdb#xpointer(/Model)"/>
+		<Item href="Bertrand_Purple.xdb#xpointer(/Model)"/>
+		<Item href="Bertrand_Tan.xdb#xpointer(/Model)"/>
+	</ColourModels>
+</Character>

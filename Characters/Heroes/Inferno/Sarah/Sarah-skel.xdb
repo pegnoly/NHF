@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skeleton>
+	<SrcName href="/models/Creatures/Castle/ArchAngel.mb"/>
+	<RootJoint>Global</RootJoint>
+	<MSRFormat>true</MSRFormat>
+	<Animations/>
+	<uid>E47B8949-413F-4C71-B397-A19D91D44510</uid>
+</Skeleton>

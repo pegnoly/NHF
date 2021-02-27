@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Character ObjectRecordID="1502200700">
+	<Model href="Biara_Saint_Isabel.xdb#xpointer(/Model)"/>
+	<ArenaAnimSet href="/Characters/Heroes/Isabel-arena.xdb#xpointer(/AnimSet)"/>
+	<AdvMapAnimSet/>
+	<ColourModels>
+		<Item href="Biara_Saint_Isabel_White.xdb#xpointer(/Model)"/>
+		<Item href="Biara_Saint_Isabel.xdb#xpointer(/Model)"/>
+		<Item href="Biara_Saint_Isabel_Blue.xdb#xpointer(/Model)"/>
+		<Item href="Biara_Saint_Isabel_Green.xdb#xpointer(/Model)"/>
+		<Item href="Biara_Saint_Isabel_Yellow.xdb#xpointer(/Model)"/>
+		<Item href="Biara_Saint_Isabel_Orange.xdb#xpointer(/Model)"/>
+		<Item href="Biara_Saint_Isabel_Teal.xdb#xpointer(/Model)"/>
+		<Item href="Biara_Saint_Isabel_Purple.xdb#xpointer(/Model)"/>
+		<Item href="Biara_Saint_Isabel_Tan.xdb#xpointer(/Model)"/>
+	</ColourModels>
+</Character>

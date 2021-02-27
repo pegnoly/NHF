@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Geometry>
+	<SrcName/>
+	<uid>238A7F47-BA2A-4D51-B026-49853F87702E</uid>
+	<RootMesh/>
+	<RootJoint>Gles</RootJoint>
+	<Size>
+		<x>0.144654</x>
+		<y>0.112451</y>
+		<z>0.197968</z>
+	</Size>
+	<Center>
+		<x>0</x>
+		<y>-3.72529e-009</y>
+		<z>0</z>
+	</Center>
+	<BestFitPoint>
+		<x>0</x>
+		<y>0</y>
+		<z>0</z>
+	</BestFitPoint>
+	<Dir>
+		<x>0</x>
+		<y>0</y>
+		<z>0</z>
+		<w>0</w>
+	</Dir>
+	<AIGeometry/>
+	<NumMeshes>1</NumMeshes>
+	<MaterialQuantities>
+		<Item>1</Item>
+	</MaterialQuantities>
+	<MeshNames>
+		<Item>Gles</Item>
+	</MeshNames>
+	<MeshAnimated/>
+	<MeshWindAffected/>
+</Geometry>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Character ObjectRecordID="185">
+	<Model href="Sarah.(Model).xdb#xpointer(/Model)"/>
+	<ArenaAnimSet href="Sarah-arena.(AnimSet).xdb#xpointer(/AnimSet)"/>
+	<AdvMapAnimSet href="Sarah-arena.(AnimSet).xdb#xpointer(/AnimSet)"/>
+	<ColourModels>
+		<Item href="Sarah.(Model).xdb#xpointer(/Model)"/>
+		<Item href="Sarah_Red.xdb#xpointer(/Model)"/>
+		<Item href="Sarah_Blue.xdb#xpointer(/Model)"/>
+		<Item href="Sarah_Green.xdb#xpointer(/Model)"/>
+		<Item href="Sarah_Yellow.xdb#xpointer(/Model)"/>
+		<Item href="Sarah_Orange.xdb#xpointer(/Model)"/>
+		<Item href="Sarah_Teal.xdb#xpointer(/Model)"/>
+		<Item href="Sarah_Purple.xdb#xpointer(/Model)"/>
+		<Item href="Sarah_Tan.xdb#xpointer(/Model)"/>
+	</ColourModels>
+</Character>

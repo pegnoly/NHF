@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Character>
+	<Model href="Orrin.(Model).xdb#xpointer(/Model)"/>
+	<ArenaAnimSet href="Orrin-arena.xdb#xpointer(/AnimSet)"/>
+	<AdvMapAnimSet/>
+	<ColourModels>
+		<Item href="Orrin_White.xdb#xpointer(/Model)"/>
+		<Item href="Orrin_Red.xdb#xpointer(/Model)"/>
+		<Item href="Orrin_Blue.xdb#xpointer(/Model)"/>
+		<Item href="Orrin_Green.xdb#xpointer(/Model)"/>
+		<Item href="Orrin_Yellow.xdb#xpointer(/Model)"/>
+		<Item href="Orrin_Orange.xdb#xpointer(/Model)"/>
+		<Item href="Orrin_Teal.xdb#xpointer(/Model)"/>
+		<Item href="Orrin_Purple.xdb#xpointer(/Model)"/>
+		<Item href="Orrin_Tan.xdb#xpointer(/Model)"/>
+	</ColourModels>
+</Character>

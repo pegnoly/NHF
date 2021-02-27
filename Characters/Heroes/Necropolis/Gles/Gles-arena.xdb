@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnimSet>
+	<animations>
+		<Item>
+			<Kind>buff</Kind>
+			<Anim href="Gles-arena-buff.xdb#xpointer(/BasicSkelAnim)"/>
+		</Item>
+		<Item>
+			<Kind>cast</Kind>
+			<Anim href="Gles-arena-cast.xdb#xpointer(/BasicSkelAnim)"/>
+		</Item>
+		<Item>
+			<Kind>happy</Kind>
+			<Anim href="Gles-arena-happy.xdb#xpointer(/BasicSkelAnim)"/>
+		</Item>
+		<Item>
+			<Kind>idle00</Kind>
+			<Anim href="Gles-arena-idle.xdb#xpointer(/BasicSkelAnim)"/>
+		</Item>
+		<Item>
+			<Kind>stir00</Kind>
+			<Anim href="Gles-arena-stir.xdb#xpointer(/BasicSkelAnim)"/>
+		</Item>
+		<Item>
+			<Kind>rangeattack</Kind>
+			<Anim href="Gles-arena-rangeattack.xdb#xpointer(/BasicSkelAnim)"/>
+		</Item>
+		<Item>
+			<Kind>move</Kind>
+			<Anim href="Gles-arena-move.xdb#xpointer(/BasicSkelAnim)"/>
+		</Item>
+		<Item>
+			<Kind>defeat</Kind>
+			<Anim href="Gles-arena-defeat.xdb#xpointer(/BasicSkelAnim)"/>
+		</Item>
+	</animations>
+	<ExpSrcScene/>
+	<ExpSrcClipFolder/>
+	<ExpRootTransform/>
+</AnimSet>

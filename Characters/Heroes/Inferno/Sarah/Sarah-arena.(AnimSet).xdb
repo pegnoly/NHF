@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnimSet ObjectRecordID="303">
+	<animations>
+		<Item>
+			<Kind>idle00</Kind>
+			<Anim href="Sarah-idle.xdb#xpointer(/BasicSkelAnim)"/>
+		</Item>
+		<Item>
+			<Kind>cast</Kind>
+			<Anim href="Sarah-specability.xdb#xpointer(/BasicSkelAnim)"/>
+		</Item>
+		<Item>
+			<Kind>move</Kind>
+			<Anim href="Sarah-move.xdb#xpointer(/BasicSkelAnim)"/>
+		</Item>
+		<Item>
+			<Kind>rangeattack</Kind>
+			<Anim href="Sarah-attack.xdb#xpointer(/BasicSkelAnim)"/>
+		</Item>
+		<Item>
+			<Kind>attack00</Kind>
+			<Anim href="Sarah-attack.xdb#xpointer(/BasicSkelAnim)"/>
+		</Item>
+		<Item>
+			<Kind>happy</Kind>
+			<Anim href="Sarah-idle.xdb#xpointer(/BasicSkelAnim)"/>
+		</Item>
+	</animations>
+	<ExpSrcScene href="/models/Creatures/Castle/Archangel.mb"/>
+	<ExpSrcClipFolder href="/Animations/Creatures/HAVEN/Archangel/Clip/"/>
+	<ExpRootTransform>Global</ExpRootTransform>
+</AnimSet>

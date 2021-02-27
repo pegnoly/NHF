@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Model>
+	<Materials>
+		<Item href="Reeva_hair.(Material).xdb#xpointer(/Material)"/>
+		<Item href="Reeva_head.(Material).xdb#xpointer(/Material)"/>
+	</Materials>
+	<Skeleton/>
+	<Geometry href="Reeva_head-geom.xdb#xpointer(/Geometry)"/>
+	<Animations/>
+	<WindPower>0</WindPower>
+</Model>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Model>
+	<Materials>
+		<Item href="Ingvar_hammer.(Material).xdb#xpointer(/Material)"/>
+		<Item href="/Characters/Heroes/RuneMage-lambert5.6.(Material).xdb#xpointer(/Material)"/>
+		<Item href="/Characters/Heroes/RuneMage-MammothsBody_L.1.(Material).xdb#xpointer(/Material)"/>
+		<Item href="Ingvar-Mammothsmetall1.1.(Material).xdb#xpointer(/Material)"/>
+		<Item href="Ingvar-0.(Material).xdb#xpointer(/Material)"/>
+		<Item href="Ingvar-nemetall.1.(Material).xdb#xpointer(/Material)"/>
+		<Item href="Ingvar-metall.1.(Material).xdb#xpointer(/Material)"/>
+	</Materials>
+	<Skeleton href="Ingvar-skel.xdb#xpointer(/Skeleton)"/>
+	<Geometry href="Ingvar-geom.xdb#xpointer(/Geometry)"/>
+	<Animations/>
+	<WindPower>1</WindPower>
+</Model>

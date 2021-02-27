@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Character>
+	<Model href="Lara.(Model).xdb#xpointer(/Model)"/>
+	<ArenaAnimSet href="Lara-arena.xdb#xpointer(/AnimSet)"/>
+	<AdvMapAnimSet/>
+	<ColourModels>
+		<Item href="Lara.(Model).xdb#xpointer(/Model)"/>
+		<Item href="Lara_Red.xdb#xpointer(/Model)"/>
+		<Item href="Lara_Blue.xdb#xpointer(/Model)"/>
+		<Item href="Lara_Green.xdb#xpointer(/Model)"/>
+		<Item href="Lara_Yellow.xdb#xpointer(/Model)"/>
+		<Item href="Lara_Orange.xdb#xpointer(/Model)"/>
+		<Item href="Lara_Teal.xdb#xpointer(/Model)"/>
+		<Item href="Lara_Purple.xdb#xpointer(/Model)"/>
+		<Item href="Lara_Tan.xdb#xpointer(/Model)"/>
+	</ColourModels>
+</Character>

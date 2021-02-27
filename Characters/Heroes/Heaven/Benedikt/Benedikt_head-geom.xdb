@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Geometry>
+	<SrcName/>
+	<uid>F6F2AC86-80F7-40E3-9F40-1886061C2937</uid>
+	<RootMesh/>
+	<RootJoint>Benedikt</RootJoint>
+	<Size>
+		<x>0.191974</x>
+		<y>0.283537</y>
+		<z>0.310177</z>
+	</Size>
+	<Center>
+		<x>0.0016124</x>
+		<y>-0.0371858</y>
+		<z>1.79695</z>
+	</Center>
+	<BestFitPoint>
+		<x>0</x>
+		<y>0</y>
+		<z>0</z>
+	</BestFitPoint>
+	<Dir>
+		<x>0</x>
+		<y>0</y>
+		<z>0</z>
+		<w>0</w>
+	</Dir>
+	<AIGeometry/>
+	<NumMeshes>1</NumMeshes>
+	<MaterialQuantities>
+		<Item>1</Item>
+	</MaterialQuantities>
+	<MeshNames>
+		<Item>Head</Item>
+	</MeshNames>
+	<MeshAnimated/>
+	<MeshWindAffected/>
+</Geometry>

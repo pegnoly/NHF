@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Model>
+	<Materials>
+		<Item href="/Characters/Heroes/Heaven/_Renegades_Path/Renegades-flag_Yellow.(Material).xdb#xpointer(/Material)"/>
+		<Item href="Gabrielle-horse.(Material).xdb#xpointer(/Material)"/>
+		<Item href="/Characters/Heroes/Heaven/_Renegades_Path/_empty.(Material).xdb#xpointer(/Material)"/>
+		<Item href="/Characters/Heroes/Heaven/_Renegades_Path/_empty.(Material).xdb#xpointer(/Material)"/>
+		<Item href="/Characters/Heroes/Heaven/_Renegades_Path/_empty.(Material).xdb#xpointer(/Material)"/>
+	</Materials>
+	<Skeleton href="/Characters/Heroes/Isabel-skel.xdb#xpointer(/Skeleton)"/>
+	<Geometry href="/Characters/Heroes/Isabel-geom.xdb#xpointer(/Geometry)"/>
+	<Animations/>
+	<WindPower>1</WindPower>
+</Model>

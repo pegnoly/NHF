@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Character>
+	<Model href="Mardigo_LOD.(Model).xdb#xpointer(/Model)"/>
+	<ArenaAnimSet/>
+	<AdvMapAnimSet href="Mardigo_LOD-arena.xdb#xpointer(/AnimSet)"/>
+	<ColourModels>
+		<Item href="Mardigo_LOD_White.xdb#xpointer(/Model)"/>
+		<Item href="Mardigo_LOD_Red.xdb#xpointer(/Model)"/>
+		<Item href="Mardigo_LOD_Blue.xdb#xpointer(/Model)"/>
+		<Item href="Mardigo_LOD_Green.xdb#xpointer(/Model)"/>
+		<Item href="Mardigo_LOD_Yellow.xdb#xpointer(/Model)"/>
+		<Item href="Mardigo_LOD_Orange.xdb#xpointer(/Model)"/>
+		<Item href="Mardigo_LOD.(Model).xdb#xpointer(/Model)"/>
+		<Item href="Mardigo_LOD_Purple.xdb#xpointer(/Model)"/>
+		<Item href="Mardigo_LOD_Tan.xdb#xpointer(/Model)"/>
+	</ColourModels>
+</Character>

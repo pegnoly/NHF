@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Geometry>
+	<SrcName/>
+	<uid>9E1F4426-A4FA-4023-A317-78B6E62DE7B8</uid>
+	<RootMesh/>
+	<RootJoint>Tamika</RootJoint>
+	<Size>
+		<x>0.393642</x>
+		<y>0.306536</y>
+		<z>0.51432</z>
+	</Size>
+	<Center>
+		<x>0</x>
+		<y>0</y>
+		<z>0</z>
+	</Center>
+	<BestFitPoint>
+		<x>0</x>
+		<y>0</y>
+		<z>0</z>
+	</BestFitPoint>
+	<Dir>
+		<x>0</x>
+		<y>0</y>
+		<z>0</z>
+		<w>0</w>
+	</Dir>
+	<AIGeometry/>
+	<NumMeshes>1</NumMeshes>
+	<MaterialQuantities>
+		<Item>1</Item>
+	</MaterialQuantities>
+	<MeshNames>
+		<Item>Tamika</Item>
+	</MeshNames>
+	<MeshAnimated/>
+	<MeshWindAffected/>
+</Geometry>

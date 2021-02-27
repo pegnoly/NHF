@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Model>
+	<Materials>
+		<Item href="Nicolai_horse.(Material).xdb#xpointer(/Material)"/>
+		<Item href="Nicolai_body.(Material).xdb#xpointer(/Material)"/>
+		<Item href="Nicolai_horse.(Material).xdb#xpointer(/Material)"/>
+		<Item href="Nicolai_weapon.(Material).xdb#xpointer(/Material)"/>
+		<Item href="Nicolai_weapon.(Material).xdb#xpointer(/Material)"/>
+		<Item href="/_(Model)/Heroes/Knight-flag_Teal.xdb#xpointer(/Material)"/>
+	</Materials>
+	<Skeleton href="/Characters/Heroes/Godric-skel.xdb#xpointer(/Skeleton)"/>
+	<Geometry href="/Characters/Heroes/Godric-geom.xdb#xpointer(/Geometry)"/>
+	<Animations/>
+	<WindPower>1</WindPower>
+</Model>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Character>
+	<Model href="Benedikt.(Model).xdb#xpointer(/Model)"/>
+	<ArenaAnimSet href="Benedikt-arena.xdb#xpointer(/AnimSet)"/>
+	<AdvMapAnimSet/>
+	<ColourModels>
+		<Item href="Benedikt_White.xdb#xpointer(/Model)"/>
+		<Item href="Benedikt.(Model).xdb#xpointer(/Model)"/>
+		<Item href="Benedikt_Blue.xdb#xpointer(/Model)"/>
+		<Item href="Benedikt_Green.xdb#xpointer(/Model)"/>
+		<Item href="Benedikt_Yellow.xdb#xpointer(/Model)"/>
+		<Item href="Benedikt_Orange.xdb#xpointer(/Model)"/>
+		<Item href="Benedikt_Teal.xdb#xpointer(/Model)"/>
+		<Item href="Benedikt_Purple.xdb#xpointer(/Model)"/>
+		<Item href="Benedikt_Tan.xdb#xpointer(/Model)"/>
+	</ColourModels>
+</Character>

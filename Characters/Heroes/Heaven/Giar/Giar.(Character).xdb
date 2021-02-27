@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Character>
+	<Model href="Giar.(Model).xdb#xpointer(/Model)"/>
+	<ArenaAnimSet href="Giar-adv.(AnimSet).xdb#xpointer(/AnimSet)"/>
+	<AdvMapAnimSet/>
+	<ColourModels>
+		<Item href="Giar.(Model).xdb#xpointer(/Model)"/>
+		<Item href="Giar_Red.xdb#xpointer(/Model)"/>
+		<Item href="Giar_Blue.xdb#xpointer(/Model)"/>
+		<Item href="Giar_Green.xdb#xpointer(/Model)"/>
+		<Item href="Giar_Yellow.xdb#xpointer(/Model)"/>
+		<Item href="Giar_Orange.xdb#xpointer(/Model)"/>
+		<Item href="Giar_Teal.xdb#xpointer(/Model)"/>
+		<Item href="Giar_Purple.xdb#xpointer(/Model)"/>
+		<Item href="Giar_Tan.xdb#xpointer(/Model)"/>
+	</ColourModels>
+</Character>

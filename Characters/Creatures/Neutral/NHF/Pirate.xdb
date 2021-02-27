@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Model>
+	<Materials>
+		<Item href="Pirate_empty.(Material).xdb#xpointer(/Material)"/>
+		<Item href="#n:inline(Material)" id="item_da89aadf-5043-4231-be05-f36e53b83d0e">
+			<Material ObjectRecordID="1212200702">
+				<Texture href="Pirate_body.(Texture).xdb#xpointer(/Texture)"/>
+				<Bump/>
+				<SpecFactor>0</SpecFactor>
+				<SpecColor>
+					<x>0</x>
+					<y>0</y>
+					<z>0</z>
+				</SpecColor>
+				<Gloss/>
+				<MetalMirror>0.25</MetalMirror>
+				<DielMirror>0</DielMirror>
+				<Mirror href="Pirate_body_mirror.(Texture).xdb#xpointer(/Texture)"/>
+				<CastShadow>true</CastShadow>
+				<ReceiveShadow>true</ReceiveShadow>
+				<Priority>0</Priority>
+				<TranslucentColor>
+					<x>0</x>
+					<y>0</y>
+					<z>0</z>
+				</TranslucentColor>
+				<FloatParam>0</FloatParam>
+				<DetailTexture/>
+				<DetailScale>5</DetailScale>
+				<ProjectOnTerrain>false</ProjectOnTerrain>
+				<LightingMode>L_NORMAL</LightingMode>
+				<DynamicMode>DM_FORCE_DYNAMIC</DynamicMode>
+				<Is2Sided>false</Is2Sided>
+				<Effect>M_GENERIC</Effect>
+				<AlphaMode>AM_ALPHA_TEST</AlphaMode>
+				<AffectedByFog>true</AffectedByFog>
+				<AddPlaced>false</AddPlaced>
+				<IgnoreZBuffer>false</IgnoreZBuffer>
+				<BackFaceCastShadow>false</BackFaceCastShadow>
+			</Material>
+		</Item>
+		<Item href="#n:inline(Material)" id="item_36058eec-3ac7-4a27-ba09-9d528d4e9047">
+			<Material ObjectRecordID="1212200703">
+				<Texture href="Pirate_collar.(Texture).xdb#xpointer(/Texture)"/>
+				<Bump/>
+				<SpecFactor>0</SpecFactor>
+				<SpecColor>
+					<x>0</x>
+					<y>0</y>
+					<z>0</z>
+				</SpecColor>
+				<Gloss/>
+				<MetalMirror>0.25</MetalMirror>
+				<DielMirror>0</DielMirror>
+				<Mirror href="Pirate_collar_mirror.(Texture).xdb#xpointer(/Texture)"/>
+				<CastShadow>true</CastShadow>
+				<ReceiveShadow>true</ReceiveShadow>
+				<Priority>0</Priority>
+				<TranslucentColor>
+					<x>0</x>
+					<y>0</y>
+					<z>0</z>
+				</TranslucentColor>
+				<FloatParam>0</FloatParam>
+				<DetailTexture/>
+				<DetailScale>5</DetailScale>
+				<ProjectOnTerrain>false</ProjectOnTerrain>
+				<LightingMode>L_NORMAL</LightingMode>
+				<DynamicMode>DM_FORCE_DYNAMIC</DynamicMode>
+				<Is2Sided>false</Is2Sided>
+				<Effect>M_GENERIC</Effect>
+				<AlphaMode>AM_ALPHA_TEST</AlphaMode>
+				<AffectedByFog>true</AffectedByFog>
+				<AddPlaced>false</AddPlaced>
+				<IgnoreZBuffer>false</IgnoreZBuffer>
+				<BackFaceCastShadow>false</BackFaceCastShadow>
+			</Material>
+		</Item>
+	</Materials>
+	<Skeleton href="Pirate-skel.xdb#xpointer(/Skeleton)"/>
+	<Geometry href="Pirate-geom.xdb#xpointer(/Geometry)"/>
+	<Animations/>
+	<WindPower>1</WindPower>
+</Model>

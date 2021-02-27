@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Character>
+	<Model href="Andreas_LOD.(Model).xdb#xpointer(/Model)"/>
+	<ArenaAnimSet/>
+	<AdvMapAnimSet href="Andreas_LOD-arena.xdb#xpointer(/AnimSet)"/>
+	<ColourModels>
+		<Item href="Andreas_LOD_White.xdb#xpointer(/Model)"/>
+		<Item href="Andreas_LOD.(Model).xdb#xpointer(/Model)"/>
+		<Item href="Andreas_LOD_Blue.xdb#xpointer(/Model)"/>
+		<Item href="Andreas_LOD_Green.xdb#xpointer(/Model)"/>
+		<Item href="Andreas_LOD_Yellow.xdb#xpointer(/Model)"/>
+		<Item href="Andreas_LOD_Orange.xdb#xpointer(/Model)"/>
+		<Item href="Andreas_LOD_Teal.xdb#xpointer(/Model)"/>
+		<Item href="Andreas_LOD_Purple.xdb#xpointer(/Model)"/>
+		<Item href="Andreas_LOD_Tan.xdb#xpointer(/Model)"/>
+	</ColourModels>
+</Character>

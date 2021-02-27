@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AdvMapHeroShared>
+	<Model href="/Characters/Heroes/Renegade_Hero_LOD.xdb#xpointer(/Model)"/>
+	<AnimSet href="/Characters/Heroes/Renegade_Hero_LOD-adv.xdb#xpointer(/AnimSet)"/>
+	<blockedTiles/>
+	<holeTiles/>
+	<activeTiles>
+		<Item>
+			<x>0</x>
+			<y>0</y>
+		</Item>
+	</activeTiles>
+	<passableTiles/>
+	<PossessionMarkerTile>
+		<x>0</x>
+		<y>0</y>
+	</PossessionMarkerTile>
+	<Effect/>
+	<EffectWhenOwned/>
+	<messagesFileRef>
+		<Item href=""/>
+	</messagesFileRef>
+	<WaterBased>false</WaterBased>
+	<ApplyHeroTrace>false</ApplyHeroTrace>
+	<SoundEffect/>
+	<flybyMessageFileRef href=""/>
+	<ObjectTypeFileRef href=""/>
+	<TerrainAligned>false</TerrainAligned>
+	<FlyPassable>true</FlyPassable>
+	<AdventureSoundEffect/>
+	<RazedStatic/>
+	<Icon128/>
+	<InternalName>YvanaNHF</InternalName>
+	<Class>HERO_CLASS_KNIGHT</Class>
+	<Specialization>HERO_SPEC_NONE</Specialization>
+	<PrimarySkill>
+		<Mastery>MASTERY_BASIC</Mastery>
+		<SkillID>HERO_SKILL_TRAINING</SkillID>
+	</PrimarySkill>
+	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Other/Voyager/spec.name.txt"/>
+	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Other/Voyager/spec.desc.txt"/>
+	<SpecializationIcon href="/Textures/HeroScreen/Specializations/Haven/Wanderer.xdb#xpointer(/Texture)"/>
+	<FaceTexture href="Haven_Yvana.(Texture).xdb#xpointer(/Texture)"/>
+	<FaceTextureSmall/>
+	<HeroCharacterArena href="/Characters/Heroes/Renegade_Hero.(Character).xdb#xpointer(/Character)"/>
+	<HeroCharacterArenaMelee href="/Characters/Heroes/Renegade_Hero_Strike.(Character).xdb#xpointer(/Character)"/>
+	<HeroCharacterAdventure href="/Characters/Heroes/Renegade_Hero_LOD.(Character).xdb#xpointer(/Character)"/>
+	<HeroIndividualCamera/>
+	<CombatVisual href="/GameMechanics/CreatureVisual/Heroes/Knight.xdb#xpointer(/CreatureVisual)"/>
+	<TownType>TOWN_HEAVEN</TownType>
+	<Editable>
+		<NameFileRef href="Yvana.name.txt"/>
+		<BiographyFileRef href="Yvana.bio.txt"/>
+		<Offence>1</Offence>
+		<Defence>2</Defence>
+		<Spellpower>1</Spellpower>
+		<Knowledge>1</Knowledge>
+		<skills>
+			<Item>
+				<Mastery>MASTERY_ADVANCED</Mastery>
+				<SkillID>HERO_SKILL_LOGISTICS</SkillID>
+			</Item>
+		</skills>
+		<perkIDs>
+			<Item>HERO_SKILL_PATHFINDING</Item>
+		</perkIDs>
+		<spellIDs>
+			<Item>SPELL_SUMMON_BOAT</Item>
+			<Item>SPELL_SUMMON_CREATURES</Item>
+			<Item>SPELL_DIMENSION_DOOR</Item>
+			<Item>SPELL_TOWN_PORTAL</Item>			
+		</spellIDs>
+		<Ballista>false</Ballista>
+		<FirstAidTent>false</FirstAidTent>
+		<AmmoCart>false</AmmoCart>
+		<FavoriteEnemies/>
+		<TalismanLevel>0</TalismanLevel>
+	</Editable>
+	<ArrowButtonState>0</ArrowButtonState>
+	<Decal/>
+	<Selection href="/_(Model)/Heroes/Knight_Path/Symbol.(Model).xdb#xpointer(/Model)"/>
+	<Trace href="/MapObjects/_(AdvMapHeroTraceSet)/Haven.xdb#xpointer(/AdvMapHeroTraceSet)"/>
+	<RaceTraitIcon/>
+	<RaceTraitDescFileRef href=""/>
+	<ScenarioHero>false</ScenarioHero>
+	<AdventureMusic/>
+	<HideInEditor>false</HideInEditor>
+	<PresetMinimalAttributes>
+		<Offence>2</Offence>
+		<Defence>2</Defence>
+		<Spellpower>2</Spellpower>
+		<Knowledge>2</Knowledge>
+	</PresetMinimalAttributes>
+</AdvMapHeroShared>

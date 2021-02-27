@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BasicSkelAnim>
+	<SrcName/>
+	<uid>D6F89477-6867-439A-858D-84982A5298BE</uid>
+	<ExpSrcClip/>
+	<ExpRootTransform/>
+	<ExpFrameFirst/>
+	<ExpFrameLast/>
+	<ExpSettingsFile/>
+	<MovementSpeed>3.67285</MovementSpeed>
+	<SpeedFactor>2</SpeedFactor>
+	<Sound href="/Sounds/_(Sound)/Heroes/Knight/advmap_move_loop.xdb#xpointer(/Sound)"/>
+	<Effect href="Nicolai_head.(Effect).xdb#xpointer(/Effect)"/>
+	<SpeedLineFallTime>250</SpeedLineFallTime>
+	<SpeedLineMaterial/>
+</BasicSkelAnim>

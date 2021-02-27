@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Model>
+	<Materials>
+		<Item href="Orrin_weapon_Yellow.(Material).xdb#xpointer(/Material)"/>
+		<Item href="Orrin_horse_Yellow.(Material).xdb#xpointer(/Material)"/>
+		<Item href="Orrin_body.(Material).xdb#xpointer(/Material)"/>
+		<Item href="Orrin_weapon_Yellow.(Material).xdb#xpointer(/Material)"/>
+	</Materials>
+	<Skeleton href="Orrin-skel.xdb#xpointer(/Skeleton)"/>
+	<Geometry href="Orrin-geom.xdb#xpointer(/Geometry)"/>
+	<Animations/>
+	<WindPower>1</WindPower>
+</Model>

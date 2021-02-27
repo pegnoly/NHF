@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Model>
+	<Materials>
+		<Item href="Effig_Yellow.(Material).xdb#xpointer(/Material)"/>
+		<Item href="Effig_Yellow.(Material).xdb#xpointer(/Material)"/>
+		<Item href="/Characters/Heroes/Necromancer-Raven.xdb#xpointer(/Material)"/>
+		<Item href="/Characters/Heroes/Necromancer-Raven.xdb#xpointer(/Material)"/>
+		<Item href="Effig-horse.(Material).xdb#xpointer(/Material)"/>
+	</Materials>
+	<Geometry href="Effig-geom.xdb#xpointer(/Geometry)"/>
+	<Skeleton href="Effig-skel.xdb#xpointer(/Skeleton)"/>
+	<Animations/>
+	<WindPower>1</WindPower>
+</Model>

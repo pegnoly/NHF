@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Character>
+	<Model href="Valeria.xdb#xpointer(/Model)"/>
+	<ArenaAnimSet href="Valeria-arena.xdb#xpointer(/AnimSet)"/>
+	<AdvMapAnimSet/>
+	<ColourModels>
+		<Item href="Valeria_White.xdb#xpointer(/Model)"/>
+		<Item href="Valeria.xdb#xpointer(/Model)"/>
+		<Item href="Valeria_Blue.xdb#xpointer(/Model)"/>
+		<Item href="Valeria_Green.xdb#xpointer(/Model)"/>
+		<Item href="Valeria_Yellow.xdb#xpointer(/Model)"/>
+		<Item href="Valeria_Orange.xdb#xpointer(/Model)"/>
+		<Item href="Valeria_Teal.xdb#xpointer(/Model)"/>
+		<Item href="Valeria_Purple.xdb#xpointer(/Model)"/>
+		<Item href="Valeria_Tan.xdb#xpointer(/Model)"/>
+	</ColourModels>
+</Character>

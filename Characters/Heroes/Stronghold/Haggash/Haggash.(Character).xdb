@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Character>
+	<Model href="Haggash_Yellow.xdb#xpointer(/Model)"/>
+	<ArenaAnimSet href="/Characters/Heroes/H5A2/Kujin_Mounted-arena.xdb#xpointer(/AnimSet)"/>
+	<AdvMapAnimSet href="/Characters/Heroes/H5A2/Kujin_Mounted-arena.xdb#xpointer(/AnimSet)"/>
+	<ColourModels>
+		<Item href="Haggash_White.xdb#xpointer(/Model)"/>
+		<Item href="Haggash_Red.xdb#xpointer(/Model)"/>
+		<Item href="Haggash_Blue.xdb#xpointer(/Model)"/>
+		<Item href="Haggash_Green.xdb#xpointer(/Model)"/>
+		<Item href="Haggash_Yellow.xdb#xpointer(/Model)"/>
+		<Item href="Haggash_Orange.xdb#xpointer(/Model)"/>
+		<Item href="Haggash_Teal.xdb#xpointer(/Model)"/>
+		<Item href="Haggash_Purple.xdb#xpointer(/Model)"/>
+		<Item href="Haggash_Tan.xdb#xpointer(/Model)"/>
+	</ColourModels>
+</Character>
