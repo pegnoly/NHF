@@ -4,289 +4,6 @@
 while not mccs_custom_ability and AddEvent and add_hero_events do
   sleep()
 end
-----------------РђР™Р РРЎ--------------------------
-NHF_Ving_week_temp = -1;
-AddEvent(new_day_events, 'NHF_spec_griffins_new_day',
-function(day)
-  for i, hero in GetObjectNamesByType('HERO') do
-    if GetHeroSpec(hero) == HERO_SPEC_GRIFFINS and IsHeroAlive(hero) then
-      if ceil(day/7) > 1 and NHF_Ving_week_temp < ceil(day/7) - 1 then  -- -1
-        NHF_Ving_week_temp = ceil(day/7) - 1
-        local temp_name = NHF_tempName_F(hero)
-    		local prirost = ceil(GetHeroLevel(hero)*NHF_Airis_percent)
-    		if prirost > 0 then
-    			NHF_creatures_prirost_F(hero,prirost,NHF_mass_creatures.Haven.L4)
-    		end
-      end
-    end
-  end
-end)
-
-
-
-----------------пїЅпїЅпїЅпїЅпїЅ--------------------------
-NHF_Orrin_week_temp = -1;
-function  error_NHF_Orrin_F ()
-	print("error:NHF_Orrin_F")
-end
-AddEvent(new_day_events, 'NHF_spec_archers_new_day',
-function(day)
-	errorHook(error_NHF_Orrin_F);
-  for i, hero in GetObjectNamesByType('HERO') do
-    if GetHeroSpec(hero) == HERO_SPEC_ARCHERS and IsHeroAlive(hero) then
-    	if (ceil(GetDate(ABSOLUTE_DAY)/7) > 1) and (NHF_Orrin_week_temp < (ceil(GetDate(ABSOLUTE_DAY)/7)-1)) then
-    		NHF_Orrin_week_temp =  (ceil(GetDate(ABSOLUTE_DAY)/7)-1)
-    		local temp_name = NHF_tempName_F(hero)
-    		local prirost = ceil(GetHeroLevel(hero)*NHF_Orrin_percent)
-    		if prirost > 0 then
-    			NHF_creatures_prirost_F(hero,prirost,NHF_mass_creatures.Haven.L2)
-    		end
-    	end
-    end
-  end
-end)
-
-----------------пїЅпїЅпїЅпїЅпїЅ----------------------------
-NHF_Mardigo_week_temp = -1;
-function  error_NHF_Mardigo_F ()
-	print("error:NHF_Mardigo_F");
-end;
-AddEvent(new_day_events, 'NHF_spec_footmen_new_day',
-function(day)
-  errorHook(error_NHF_Mardigo_F);
-  for i, hero in GetObjectNamesByType('HERO') do
-    if GetHeroSpec(hero) == HERO_SPEC_FOOTMEN and IsHeroAlive(hero) then
-    	if (ceil(GetDate(ABSOLUTE_DAY)/7) > 1) and (NHF_Mardigo_week_temp < (ceil(GetDate(ABSOLUTE_DAY)/7)-1)) then
-    		NHF_Mardigo_week_temp =  (ceil(GetDate(ABSOLUTE_DAY)/7)-1)
-    		local temp_name = NHF_tempName_F(hero)
-    		local prirost = ceil(GetHeroLevel(hero)*NHF_Laslo_percent)
-    		if prirost > 0 then
-    			NHF_creatures_prirost_F(hero,prirost,NHF_mass_creatures.Haven.L3)
-    		end
-    	end
-    end
-  end
-end)
-
-----------------Р­Р›Р›РђР™РќРђ----------------------------
-NHF_Nathaniel_week_temp = 0;
-function  error_NHF_Nathaniel_F ()
-	print("error:NHF_Nathaniel_F");
-end;
-AddEvent(new_day_events, 'NHF_spec_peasants_new_day',
-function(day)
-  errorHook(error_NHF_Nathaniel_F);
-  for i, hero in GetObjectNamesByType('HERO') do
-    if GetHeroSpec(hero) == HERO_SPEC_PEASANTS and IsHeroAlive(hero) then
-    	if (ceil(GetDate(ABSOLUTE_DAY)/7) > 1) and (NHF_Nathaniel_week_temp < (ceil(GetDate(ABSOLUTE_DAY)/7)-1)) then
-    		NHF_Nathaniel_week_temp =  (ceil(GetDate(ABSOLUTE_DAY)/7)-1);
-    		local temp_name = NHF_tempName_F(hero);
-    		local prirost = ceil(GetHeroLevel(hero)*NHF_Ellaina_percent);
-    		if prirost > 0 then
-    			NHF_creatures_prirost_F(hero,prirost,NHF_mass_creatures.Haven.L1);
-    		end;
-    	end;
-  	end
-	end
-end)
-
---NHF--------------Р’РР›Р¬Р“Р•Р›Р¬Рњ----------------------
-wilhelm_spec_heroes =
-{
-  'Wilhelm', 'Wilhelm_copy_1', 'Wilhelm_copy_2', 'Wilhelm_copy_3', 'Wilhelm_copy_4', 'Wilhelm_copy_5', 'Wilhelm_copy_6', 'Wilhelm_copy_7', 'Wilhelm_copy_8'
-}
-
-NHF_mass_Wilhelm =
-{
-["SKILL_DARK_MAGIC"]={{11,"РћСЃР»Р°Р±Р»РµРЅРёРµ"},{12,"Р—Р°РјРµРґР»РµРЅРёРµ"},{13,"Р Р°Р·СЂСѓС€Р°С‰РёР№ Р»СѓС‡"},{14,"Р§СѓРјР°"},{15,"РќРµРјРѕС‰РЅРѕСЃС‚СЊ"}},
-["LIGHT_MAGIC"]={{23,"Р‘РѕР¶РµСЃС‚РІРµРЅРЅР°СЏ СЃРёР»Р°"},{24,"РЈСЃРєРѕСЂРµРЅРёРµ"},{25,"РљР°РјРµРЅРЅР°СЏ РєРѕР¶Р°"},{280,"Р РµРіРµРЅРµСЂР°С†РёСЏ"},{28,"РљР°СЂР°СЋС‰РёР№ СѓРґР°СЂ"}}
-};
-function  error_NHF_Wilhelm_F ()
-	print("error:NHF_Wilhelm_F");
-end;
-
-AddEvent(add_hero_events, 'NHF_wilhelm_thread_start',
-function(hero)
-  if contains(wilhelm_spec_heroes, hero) then
-    startThread(
-    function()
-      while 1 do
-        if IsHeroAlive(%hero) then
-          errorHook(error_NHF_Wilhelm_F);
-          local temp_name = NHF_tempName_F(%hero);
-          local mass_spell_ShowFlyMessage = {};
-        	for i, spell in  NHF_mass_Wilhelm.SKILL_DARK_MAGIC do
-        		if not((KnowHeroSpell(%hero, NHF_mass_Wilhelm.SKILL_DARK_MAGIC[i][1]) == true) and (KnowHeroSpell(%hero, NHF_mass_Wilhelm.LIGHT_MAGIC[i][1]) == true)) then
-        			if (KnowHeroSpell(%hero, NHF_mass_Wilhelm.SKILL_DARK_MAGIC[i][1]) == true) or (KnowHeroSpell(%hero, NHF_mass_Wilhelm.LIGHT_MAGIC[i][1]) == true) then
-        				local temp_name = NHF_tempName_F(%hero);
-        				if (KnowHeroSpell(%hero, NHF_mass_Wilhelm.SKILL_DARK_MAGIC[i][1]) == true) then
-        					TeachHeroSpell(%hero, NHF_mass_Wilhelm.LIGHT_MAGIC[i][1]);
-        					mass_spell_ShowFlyMessage[NHF_mass_Wilhelm.LIGHT_MAGIC[i][1]] = 1;
-        					NHF_ChangeHeroStat(%hero, STAT_SPELL_POWER, NHF_Wilhelm_percent);
-        					sleep(NHF_slep_singl);
-        				else
-        					TeachHeroSpell(%hero, NHF_mass_Wilhelm.SKILL_DARK_MAGIC[i][1]);
-        					mass_spell_ShowFlyMessage[NHF_mass_Wilhelm.SKILL_DARK_MAGIC[i][1]] = 1;
-        					NHF_ChangeHeroStat(%hero, STAT_SPELL_POWER, NHF_Wilhelm_percent);
-        					sleep(NHF_slep_singl);
-        				end;
-        			end;
-        		end;
-        	end;
-        	local j = 2;
-        	for i, value in mass_spell_ShowFlyMessage do
-        		j = j + 2;
-        		sleep(NHF_slep_singl+j);
-        		startThread(NHF_ShowFlyMessage, NHF_GetSpellName(i,"+ "), temp_name , j);
-        	end;
-        end
-        sleep()
-      end
-    end)
-  end
-end)
-
---NHF---------------Р’РРќРЎР•РќРў-------------------
-vinsent_spec_heroes =
-{
-  'Vinsent', 'Vinsent_copy_1', 'Vinsent_copy_2', 'Vinsent_copy_3', 'Vinsent_copy_4', 'Vinsent_copy_5', 'Vinsent_copy_6', 'Vinsent_copy_7', 'Vinsent_copy_8'
-}
-
-vinsent_spec_levels = {}
-
-NHF_Vinsent_textPath = "/MapObjects/Haven/NewHeroes/Vinsent/";
-function  error_NHF_Vinsent_F ()
-	print("error:NHF_Vinsent_F");
-end;
-
-AddEvent(map_loading_events, 'NHF_vinsent_spec_init',
-function()
-  for i, hero in vinsent_spec_heroes do
-    vinsent_spec_levels[hero] = -1
-  end
-end)
-
-AddEvent(level_up_events, 'NHF_vinsent_lvl_up',
-function(hero)
-  errorHook(error_NHF_Vinsent_F);
-  if contains(vinsent_spec_heroes, hero) then
-    local temp_name = NHF_tempName_F(hero);
-    if (ceil(GetHeroLevel(hero)/NHF_Vinsent_percent) > (ceil(vinsent_spec_levels[hero]/NHF_Vinsent_percent))) then
-       vinsent_spec_levels[hero] = GetHeroLevel(hero);
-       ChangeHeroStat(hero, STAT_KNOWLEDGE,1);
-  	 sleep(NHF_slep_singl);
-  	 startThread(NHF_ShowFlyMessage, NHF_Vinsent_textPath.."NHF_Vinsent_prirost.txt",temp_name , 5);
-    end;
-  end
-end)
-
---NHF---------------Р”Р РђР“Рћ-----------------------
-NHF_Drago_textPath_format_text = "/MapObjects/Haven/NewHeroes/Drago/NHF_Drago_format_text.txt";
-NHF_Drago_index_battle_next = -1;
---NHF_mass_live_dragon = {55,56,151,83,84,144,41,42,158};
-NHF_mass_art_drago = {
-{
-36,  --Р”РѕСЃРїРµС…Рё РёР· С‡РµС€СѓРё РґСЂР°РєРѕРЅР°
-37,  --Р©РёС‚ РёР· С‡РµС€СѓРё РґСЂР°РєРѕРЅР°
-38,  --РџРѕРЅРѕР¶Рё РёР· РєРѕСЃС‚Рё РґСЂР°РєРѕРЅР°
-39,  --РњР°РЅС‚РёСЏ РёР· РєСЂС‹Р»СЊРµРІ РґСЂР°РєРѕРЅР°
-40,  --РћР¶РµСЂРµР»СЊРµ РёР· Р·СѓР±РѕРІ РґСЂР°РєРѕРЅР°
-41,  --РљРѕСЂРѕРЅР° РёР· РєРѕРіС‚РµР№ РґСЂР°РєРѕРЅР°
-42,  --РљРѕР»СЊС†Рѕ Р“Р»Р°Р· РґСЂР°РєРѕРЅР°
-43,  --РџР»Р°РјРµРЅРЅС‹Р№ СЏР·С‹Рє РґСЂР°РєРѕРЅР°
-},
-{
-"/Text/Game/Artifacts/Dragon_scale_armor/name.txt",
-"/Text/Game/Artifacts/DragonscaleShield/name.txt",
-"/Text/Game/Artifacts/Dragon_bone_greaves/name.txt",
-"/Text/Game/Artifacts/Dragon_wing_mantle/name.txt",
-"/Text/Game/Artifacts/Dragon_teeth_necklace/name.txt",
-"/Text/Game/Artifacts/Dragon_talon_crown/name.txt",
-"/Text/Game/Artifacts/Dragon_eye_ring/name.txt",
-"/Text/Game/Artifacts/Dragon_flame_tongue/name.txt",
-}
-};
-function  error_NHF_Drago_F ()
-	print("error:NHF_Drago_F");
-end;
-AddEvent(combat_results_events, 'NHF_drago_combat_result',
-function(fight_id)
-	errorHook(error_NHF_Drago_F);
-	if (GetSavedCombatArmyHero(fight_id, 1)== "Drago") and (NHF_Drago_index_battle_next ~= fight_id) then
-		local count_stacks = GetSavedCombatArmyCreaturesCount(fight_id,0);
-		local itogo_dead_count = 0;
-		for i_live_dragon = 0, count_stacks - 1 do
-			local id_creatures, count_creatures, dead_count = GetSavedCombatArmyCreatureInfo(fight_id,0,i_live_dragon);
-			if NHF_non_elemental_dragons[id_creatures] == 1 then
-				itogo_dead_count = itogo_dead_count + dead_count;
-			end;
-		end;
-		local  count_stacks = GetSavedCombatArmyCreaturesCount(fight_id,1);
-		for i_live_dragon = 0, count_stacks - 1 do
-			id_creatures, count_creatures, dead_count = GetSavedCombatArmyCreatureInfo(fight_id,1,i_live_dragon);
-			if NHF_non_elemental_dragons[id_creatures] == 1 then
-				itogo_dead_count = itogo_dead_count + dead_count;
-			end;		
-		end;
-		if itogo_dead_count > 0 then
-			if (itogo_dead_count+GetHeroLevel("Drago")) > (NHF_Drago_persent*ceil(GetDate(ABSOLUTE_DAY)/7)) then  -----------------------
-				local NHF_mass_art_drago_temp = {{},{}};
-				local h = 0;
-				for j, art_dragon in NHF_mass_art_drago[1]  do
-					if HasArtefact("Drago" ,art_dragon) ~= true then
-						h = h+1 ;
-						NHF_mass_art_drago_temp[1][h] = NHF_mass_art_drago[1][j];
-						NHF_mass_art_drago_temp[2][h] = NHF_mass_art_drago[2][j];
-					end;
-				end;
-				local give_artifact = 0;
-				local temp_name = NHF_tempName_F("Drago");
-				local random_element = 0;
-				if h > 0 then
-					random_element = random(length(NHF_mass_art_drago_temp[1]))+1;
-					give_artifact = (NHF_mass_art_drago_temp[1][random_element]);
-					startThread(NHF_ShowFlyMessage, {NHF_Drago_textPath_format_text;text_art=NHF_mass_art_drago_temp[2][random_element]},temp_name, 5);
-				else
-					random_element =  random(length(NHF_mass_art_drago[1]))+1;
-					give_artifact =  (NHF_mass_art_drago[1][random_element]);
-					startThread(NHF_ShowFlyMessage, {NHF_Drago_textPath_format_text;text_art=NHF_mass_art_drago[2][random_element]},temp_name,5);
-				end;
-				GiveArtefact("Drago",give_artifact,1);
-			end;
-		end;
-		NHF_Drago_index_battle_next = fight_id;
-	end;
-end)
-
---NHF------------пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ--------------------------
-NHF_Melhior_Kn = 1.0001;
-function  error_NHF_Melhior_F ()
-	print("error:NHF_Melhior_F");
-end;
-AddEvent(level_up_events, 'NHF_melhior_lvl_up',
-function(hero)
-	errorHook(error_NHF_Melhior_F);
-	if hero == 'Melhior' then
-	  local temp_name = NHF_tempName_F("Melhior");
-	  NHF_Melhior_lvlHero_temp = GetHeroLevel("Melhior");
-	  if (((random(100)+1) <= (NHF_Melhior_percent*100))) then
-  		for i, zaklinanie in NHF_mass_spells_svet do
-			if (KnowHeroSpell("Melhior", zaklinanie) ~= true)  then
-				TeachHeroSpell("Melhior" ,zaklinanie);
-				startThread(NHF_ShowFlyMessage, NHF_GetSpellName(zaklinanie,"+ "),temp_name , 5);
-				NHF_Melhior_Kn = NHF_Melhior_Kn + NHF_Melhior_Kn_percent;
-				if NHF_Melhior_Kn >= 1 then							
-					sleep(2);
-					NHF_ChangeHeroStat("Melhior", STAT_KNOWLEDGE, floor(NHF_Melhior_Kn),8);		
-					sleep(NHF_slep_singl);
-					NHF_Melhior_Kn = NHF_Melhior_Kn - floor(NHF_Melhior_Kn);
-				end;
-				break;
-			end;
-  		end;
-  	end;
-  end;
-end)
 
 --NHF----------------РњРР РђР‘Р•Р›Р¬---------------------	
 NHF_Mirabel_textPath = "/MapObjects/Haven/NewHeroes/Mirabel/";
@@ -2419,12 +2136,12 @@ NHF_Kiina_textPath = "/MapObjects/Preserve/NewHeroes/Kiina/";
 function  error_NHF_Kiina_F ()
 	print("error:NHF_Kiina_F");
 end;
--- параметры спецы
+-- пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
 kiina_spec = 
 {
-	-- таблица активных марок
+	-- пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
 	active_marks = {},
-	-- пути к объектам
+	-- пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 	mark_object = '/MapObjects/NHF/Kiina_mark_green.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)',
   mark_red_object = '/MapObjects/NHF/Kiina_mark_red.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)',
 	--
@@ -2436,23 +2153,23 @@ AddEvent(new_day_events, 'NHF_kiina_new_day',
 function(hero, day)
   if hero == 'Kiina' and GetDate(DAY_OF_WEEK) == 1 and IsHeroAlive('Kiina') then
     print('Kiina generation started')
-    -- сначала посчитать число меток для генерации
+    -- пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
     local curr_week = ceil(GetDate(DAY) / 7)
     local marks_to_generate = ceil(GetDate(DAY)/7)
     local lvl = GetHeroLevel('Kiina')
-    -- если неделя больше уровня Киины, число меток равно уровню
+    -- пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
     if marks_to_generate > lvl then
       marks_to_genenate = lvl
     end
-    -- из числа меток вычесть число уже существующих
+    -- пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
     marks_to_generate = marks_to_generate - len(kiina_spec.active_marks)
-    -- прочекать существующие метки, удалить те, время которых истекло, поменять цвет тем, которым осталась неделя
+    -- пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ, пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
     for mark, info in kiina_spec.active_marks do
       info.lifetime = info.lifetime - 1
       if info.lifetime == 0 then
         RemoveObject(info.mark)
         kiina_spec.active_marks[mark] = nil
-        -- если метка удалена, то нужно будет сгенерировать новую
+        -- пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
         marks_to_generate = marks_to_generate + 1
       elseif info.lifetime == 1 then
         local x, y, z = GetObjectPosition(info.mark)
@@ -2466,7 +2183,7 @@ function(hero, day)
     --
     local kiina_object = GetHeroTown('Kiina') or 'Kiina'
     local kx, ky, kz = GetObjectPosition(kiina_object)
-    -- рассчитать границы генерации, учитывая размеры карты
+    -- пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
     local max_left_x = 25 + 10 * curr_week
     local max_right_x = max_left_x
     if kx + max_right_x > GetTerrainSize() then
@@ -2488,13 +2205,13 @@ function(hero, day)
     print('Max up_y: ', max_up_y)
     print('Max left_x: ', max_left_x)
     print('Max right_x: ', max_right_x)
-    -- пока есть метки для генерации...
+    -- пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ...
     for i = 1, marks_to_generate do
       while 1 do
         --
         local check = 1
         local mx = -1
-        -- случайным образом выбрать направление и точку относительно положения Киины
+        -- пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
         if random(2) == 1 then
           mx = kx + random(max_right_x)
         else
@@ -2507,10 +2224,10 @@ function(hero, day)
         else
           my = ky - random(max_low_y)
         end
-        -- если точка проходима
+        -- пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
         if IsTilePassable(mx, my, kz) then
           for mark, info in kiina_spec.active_marks do
-            -- и на ее месте нет другой активной метки
+            -- пїЅ пїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
             if (mx == info.x and my == info.y and kz == info.z) then
               check = nil
               break
@@ -2519,14 +2236,14 @@ function(hero, day)
         else
           check = nil
         end
-        -- создать новую метку
+        -- пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
         if check then
           local mark_name = 'kiina_mark_'..GetDate(DAY)..'_'..i
           CreateStatic(mark_name, kiina_spec.mark_object, mx, my, kz)
           while not IsObjectExists(mark_name) do
             sleep()
           end
-          -- внести данные о ней в таблицу меток
+          -- пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
           kiina_spec.active_marks[mark_name] = {x = mx, y = my, z = kz, lifetime = 3}
           --
           if not IsObjectVisible(GetObjectOwner(kiina_object), mark_name) then
@@ -4004,7 +3721,7 @@ end;
 
 lara_spec =
 {
-   -- типы крипт
+   -- пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
    ['bank_crypt_01'] =
    {
      guards =
@@ -4089,7 +3806,7 @@ lara_spec =
      reward = {res = {[GOLD] = {5000, 5000}}, art = {[ART_TIER_MINOR] = {1, 1}}}
    },
    
-   -- пирамиды
+   -- пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
    ['bank_pyramid_01'] =
    {
      guards =
@@ -4115,7 +3832,7 @@ lara_spec =
      reward = {spell = {count = {1, 2}, lvl = {2, 4}}}
    },
    
-   -- сокровищницы магов
+   -- пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
    ['bank_magi_vault_01'] =
    {
      guards =
@@ -4178,7 +3895,7 @@ lara_spec =
      reward = {res = {[GEM] = {12, 12}, [GOLD] = {7000, 7000}}, art = {[ART_TIER_MINOR] = {0, 1}}, spell = {count = {2, 2}, lvl = {5, 5}}}
    },
    
-   -- утопии
+   -- пїЅпїЅпїЅпїЅпїЅпїЅ
    ['bank_utopia_01'] =
    {
      guards =
@@ -4780,30 +4497,30 @@ function(fight_id)
       print('Multiplier: ', multiplier)
       local reward_to_increase = {}
       local stacks = GetSavedCombatArmyCreaturesCount(fight_id,0);
-      -- во всех банках
+      -- пїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
       for bank, info in lara_spec do
         local check = 1
-        -- пройтись по списку убитых существ
+        -- пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
         for i = 0, stacks - 1 do
   	      creature, count, dead = GetSavedCombatArmyCreatureInfo(fight_id, 0, i)
           local curr_id_check
-          -- если очередное убитое существо...
+          -- пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ...
           for j, pair in info.guards do
             for type, range in pair do
-              -- нашлось хотя бы в одном из вариантов существ банка в нужном количестве
+              -- пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
               if type == creature and (dead >= range[1] and dead <= range[2]) then
-                curr_id_check = 1 -- продолжить поиск
+                curr_id_check = 1 -- пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
                 break
               end
             end
           end
-          -- если существо не найдено в данном банке
+          -- пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
           if not curr_id_check then
-            check = nil -- полностью скипнуть его проверку
+            check = nil -- пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
             break
           end
         end
-        -- если после всех проверок флаг положителен - нужный банк найден и использовать его награду для увеличения
+        -- пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ - пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
         if check then
           reward_to_increase = info.reward
           print('Lara was in ', bank)
