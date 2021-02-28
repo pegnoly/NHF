@@ -1,9 +1,13 @@
 grow_specs_params =
 {
-  -- спецы, просто дающие прирост конкретных существ
+  -- РіРµСЂРѕРё СЃРѕ СЃС‚Р°РЅРґР°СЂС‚РЅС‹РјРё СЃРїРµС†Р°РјРё РїСЂРёСЂРѕСЃС‚Р°, РєРѕС‚РѕСЂС‹Рµ РёРјРµСЋС‚ РѕС‚РґРµР»СЊРЅСѓСЋ Р»РѕРіРёРєСѓ РїСЂРёСЂРѕСЃС‚Р°
+  ignored_heroes = 
+  {
+      gabriel_spec.heroes,
+  }
   simple_grow_specs =
   {
-    -- спеца - таблица существ для прироста
+    -- пїЅпїЅпїЅпїЅпїЅ - пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
     [HERO_SPEC_PEASANTS] = {town = TOWN_HEAVEN, tier = 1},
     [HERO_SPEC_ARCHERS] = {town = TOWN_HEAVEN, tier = 2},
     [HERO_SPEC_FOOTMEN] = {town = TOWN_HEAVEN, tier = 3},
@@ -33,21 +37,32 @@ grow_specs_params =
 
 AddEvent(new_day_event, 'NHF_simple_grow_new_day',
 function(day)
-  if mod(GetDate(day), 7) == 0 then
-    for i, hero in GetObjectNamesByType('HERO') do
-      local spec = GetHeroSpec(hero)
-      if grow_specs_params.simple_grow_specs[spec] then
-        local temp_name = NHF_tempName_F(hero)
-        local creatures = GetHeroCreaturesByTier(hero, grow_specs_params.simple_grow_specs[spec].town, grow_specs_params.simple_grow_specs[spec].tier)
-        local creature_to_add = -1
-        if creatures then
-          creature_to_add = GetRandFromT(creature)
-        else
-          creature_to_add = TIER_TABLES[grow_specs_params.simple_grow_specs[spec].town][grow_specs_params.simple_grow_specs[spec].tier][1]
+    if mod(GetDate(day), 7) == 1 and day ~= 1 then
+        for i, hero in GetObjectNamesByType('HERO') do
+            local spec = GetHeroSpec(hero)
+            if grow_specs_params.simple_grow_specs[spec] then
+                --
+                for i, table in grow_specs_params.ignored_heroes do
+                    if contains(table, hero) then
+                        return
+                    end
+                end
+                --
+                local grow = ceil(GetHeroLevel(hero) * GetCreatureGrow(TIER_TABLES[grow_specs_params.simple_grow_specs[spec].town][grow_specs_params.simple_grow_specs[spec].town][1]))
+                startThread(DefaultCreatureGrow, hero, grow_specs_params.simple_grow_specs[spec].town, grow_specs_params.simple_grow_specs[spec].tier, grow)
+            end
         end
-        local grow = ceil(GetHeroLevel(hero) * GetCreatureGrow(creature_to_add))
-        AddCreatures(hero, creature_to_add_grow)
-      end
+        --
     end
-  end
 end)
+
+function DefaultCreatureGrow(hero, town, tier, amount)
+    local creatures = GetHeroCreaturesByTier(hero, town, tier)
+    local creature_to_add = -1
+    if creatures then
+      creature_to_add = GetRandFromT(creatures)
+    else
+      creature_to_add = TIER_TABLES[town][tier][1]
+    end
+    AddCreatures(hero, creature_to_add, amount)   
+end
