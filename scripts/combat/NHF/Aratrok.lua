@@ -1,9 +1,9 @@
 aratrok_spec =
 {
-  path = 'Text/Combat/Aratrok/',
-  heroes = {"Aratrok"},
-  [ATTACKER] = {},
-  [DEFENDER] = {}
+    path = 'Text/Combat/Aratrok/',
+    heroes = {'Aratrok', 'Aratrok_copy_1', 'Aratrok_copy_2', 'Aratrok_copy_3', 'Aratrok_copy_4', 'Aratrok_copy_5', 'Aratrok_copy_6', 'Aratrok_copy_7', 'Aratrok_copy_8'},
+    [ATTACKER] = {},
+    [DEFENDER] = {}
 }
 
 function AratrokSpec_Start(side)

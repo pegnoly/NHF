@@ -1,6 +1,6 @@
 fiona_spec = 
 {
-  heroes = {'Fiona'},
+  heroes = {'Fiona', 'Fiona_copy_1', 'Fiona_copy_2', 'Fiona_copy_3', 'Fiona_copy_4', 'Fiona_copy_5', 'Fiona_copy_6', 'Fiona_copy_7', 'Fiona_copy_8'},
 
   [ATTACKER] = {},
   [DEFENDER] = {},
@@ -70,7 +70,7 @@ function FionaSpec_NeutralsStart(side)
   end
   --
   EnableAutoFinish(1)
-  -- пораскидывать по ини
+  -- пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅ
   while not combatReadyPerson() do
     sleep()
   end
@@ -98,7 +98,7 @@ function FionaSpec_HeroStart(side)
     end
   end
   --
-  SummonCreature(1 - side, HELPER, 30, -1, -1, nil, 'fiona_sorrow_helper')
+  AddCreature(side, HELPER, 30, -1, -1, nil, 'fiona_sorrow_helper')
   while not exist('fiona_sorrow_helper') do
     sleep()
   end

@@ -1,6 +1,6 @@
 doncella_spec = 
 {
-  heroes = {"Doncella"},
+  heroes = {'Doncella', 'Doncella_copy_1', 'Doncella_copy_2', 'Doncella_copy_3', 'Doncella_copy_4', 'Doncella_copy_5', 'Doncella_copy_6', 'Doncella_copy_7', 'Doncella_copy_8'},
   [ATTACKER] = {},
   [DEFENDER] = {}
 }

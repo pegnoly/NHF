@@ -1,6 +1,6 @@
 knauda_spec =
 {
-  heroes = {"Knaud"},
+  heroes = {'Knaud', 'Knaud_copy_1', 'Knaud_copy_2', 'Knaud_copy_3', 'Knaud_copy_4', 'Knaud_copy_5', 'Knaud_copy_6', 'Knaud_copy_7', 'Knaud_copy_8'},
   [ATTACKER] = {},
   [DEFENDER] = {}
 }

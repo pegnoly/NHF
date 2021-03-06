@@ -1,7 +1,7 @@
 hafad_spec =
 {
   path = 'Text/Combat/Hafad/',
-  heroes = {'Hafad'},
+  heroes = {'Hafad', 'Hafad_copy_1', 'Hafad_copy_2', 'Hafad_copy_3', 'Hafad_copy_4', 'Hafad_copy_5', 'Hafad_copy_6', 'Hafad_copy_7', 'Hafad_copy_8'},
   [ATTACKER] = {},
   [DEFENDER] = {}
 }

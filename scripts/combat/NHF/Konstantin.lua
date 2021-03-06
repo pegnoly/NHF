@@ -1,7 +1,7 @@
 konstantin_spec = 
 {
   path = 'Text/Combat/Konstantin/',
-  heroes = {'Konstantin'},
+  heroes = {'Konstantin', 'Konstantin_copy_1', 'Konstantin_copy_2', 'Konstantin_copy_3', 'Konstantin_copy_4', 'Konstantin_copy_5', 'Konstantin_copy_6', 'Konstantin_copy_7', 'Konstantin_copy_8'},
   percent = 0.05,
   [ATTACKER] = {},
   [DEFENDER] = {}

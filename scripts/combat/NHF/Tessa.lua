@@ -1,7 +1,7 @@
 tessa_spec =
 {
   path = 'Text/Combat/Tessa/',
-  heroes = {'Tessa'},
+  heroes = {'Tessa', 'Tessa_copy_1', 'Tessa_copy_2', 'Tessa_copy_3', 'Tessa_copy_4', 'Tessa_copy_5', 'Tessa_copy_6', 'Tessa_copy_7', 'Tessa_copy_8'},
   mana_remove_percent = 0.4,
   [ATTACKER] = {},
   [DEFENDER] = {}

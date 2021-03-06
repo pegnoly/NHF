@@ -1,6 +1,6 @@
 lara_spec =
 {
-  heroes = {'Lara'},
+  heroes = {'Lara', 'Lara_copy_1', 'Lara_copy_2', 'Lara_copy_3', 'Lara_copy_4', 'Lara_copy_5', 'Lara_copy_6', 'Lara_copy_7', 'Lara_copy_8'},
   pairs =
   {
     [CREATURE_SKELETON_COPY] = CREATURE_SKELETON,
@@ -125,7 +125,7 @@ function LaraSpec_Start(side)
   sleep(100)
   EnableAutoFinish(1)
   --
-  -- раскидать по ини
+  -- пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅ
   if replace_flag then
     while not combatReadyPerson() do
       sleep()
